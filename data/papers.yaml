@@ -1,0 +1,36 @@
+- title: "A Fourier neural operator framework for indoor contaminant transport prediction, source localization, and release strength estimation"
+  authors:
+    - "Zihao Wang"
+    - "Kevin H. Lausch"
+    - "Eugen Lichtner"
+    - "Eshwar Kumar Ramasetti"
+    - "Martin Kriegel"
+  year: 2026
+  status: "accepted"
+  kind: "Journal article"
+  venue: "Building and Environment"
+  article_number: "115451"
+  doi: "10.1016/j.buildenv.2026.115451"
+  link: "https://doi.org/10.1016/j.buildenv.2026.115451"
+  detail: "research/fourier-neural-operator/"
+  citation: "files/wang-2026-fno.bib"
+  abstract: "A Fourier neural operator framework for predicting indoor contaminant transport, locating contaminant sources, and estimating release strength."
+  featured: true
+  tags: ["Neural operators", "Indoor air quality", "Inverse problems"]
+- title: "Ventilation Effectiveness in a Test Room: Experiments and CFD Validation"
+  authors:
+    - "Yunus Emre Cetin"
+    - "Zihao Wang"
+    - "Gerrid Brockmann"
+    - "Martin Kriegel"
+  year: 2026
+  status: "published"
+  kind: "Conference paper"
+  venue: "IAQVEC 2026"
+  link: "https://doi.org/10.1051/e3sconf/202671601055"
+  abstract: "Experiments and CFD validation for ventilation effectiveness in a test room."
+  job_market_paper: false
+  tags:
+    - "indoor air quality"
+    - "CFD"
+    - "ventilation"

@@ -1,0 +1,91 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1596 >>
+stream
+BT
+/F1 20 Tf
+72 760 Td
+(Zihao Wang) Tj
+/F1 10 Tf
+0 -24 Td
+(PhD Candidate, Chair for Energy, Comfort and Health in Buildings) Tj
+0 -13 Td
+(Technical University of Berlin | Hermann-Rietschel-Institut) Tj
+0 -13 Td
+(Email: zihao.wang@tu-berlin.de) Tj
+0 -13 Td
+0 -12 Td
+/F1 13 Tf
+(Research Interests) Tj
+/F1 10 Tf
+0 -16 Td
+(AI4CFD; indoor air quality; deep learning; neural operators; CFD.) Tj
+0 -13 Td
+0 -12 Td
+/F1 13 Tf
+(Education) Tj
+/F1 10 Tf
+0 -16 Td
+(Technical University of Munich, M.S. Medical Engineering and Assistance Systems, 2021-2025.) Tj
+0 -13 Td
+(Technical University of Munich, M.S. Mechatronics and Robotics, 2021-2024.) Tj
+0 -13 Td
+(Beijing Institute of Technology, B.S. Energy and Power Engineering, 2017-2021.) Tj
+0 -13 Td
+0 -12 Td
+/F1 13 Tf
+(Experience) Tj
+/F1 10 Tf
+0 -16 Td
+(Audi AG, Master Thesis, 2024-2025. CFD simulation of automotive cabin airflow and scalar transport.) Tj
+0 -13 Td
+(Lehrstuhl fuer Foerdertechnik, Materialfluss, Logistik, Working Student, 2023-2024.) Tj
+0 -13 Td
+(TUM School of Engineering and Design, Master Thesis, 2023-2024.) Tj
+0 -13 Td
+0 -12 Td
+/F1 13 Tf
+(Publication) Tj
+/F1 10 Tf
+0 -16 Td
+(Cetin, Yunus Emre; Zihao Wang; Gerrid Brockmann; Martin Kriegel. Ventilation Effectiveness) Tj
+0 -13 Td
+(in a Test Room: Experiments and CFD Validation. IAQVEC 2026. doi:10.1051/e3sconf/202671601055) Tj
+0 -13 Td
+0 -12 Td
+/F1 13 Tf
+(Teaching) Tj
+/F1 10 Tf
+0 -16 Td
+(Energy Simulation \(Energiesimulation\), Lecturer, Winter Semester 2025-2026.) Tj
+0 -13 Td
+(Computational Fluid Mechanics in Indoor Air Quality, Lecturer, Summer Semester 2026.) Tj
+0 -13 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1959
+%%EOF

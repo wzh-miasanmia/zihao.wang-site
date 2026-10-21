@@ -1,0 +1,10 @@
+{{ $heading := "h4" }}{{ if eq .level 3 }}{{ $heading = "h3" }}{{ end }}
+{{ with .paper }}
+<article class="paper{{ if .featured }} paper-featured{{ end }}">
+<div class="paper-heading"><p class="eyebrow">{{ .venue }} <span aria-hidden="true">/</span> {{ .year }}</p><span class="badge">{{ .status }}</span></div>
+{{ printf "<%s class=\"paper-title\">" $heading | safeHTML }}{{ if .detail }}<a href="{{ .detail | relURL }}">{{ .title }}</a>{{ else if .link }}<a href="{{ .link }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}{{ printf "</%s>" $heading | safeHTML }}
+<p class="authors">{{ range $i, $author := .authors }}{{ if $i }}, {{ end }}{{ if eq $author site.Params.author }}<strong>{{ $author }}</strong>{{ else }}{{ $author }}{{ end }}{{ end }}</p>
+<div class="paper-links"><span class="meta">{{ .kind }}</span>{{ with .link }}<a href="{{ . }}">Read article ↗</a>{{ end }}{{ with .citation }}<a href="{{ . | relURL }}" download>BibTeX ↓</a>{{ end }}</div>
+{{ with .abstract }}<details><summary>Research overview</summary><p>{{ . }}</p></details>{{ end }}
+</article>
+{{ end }}

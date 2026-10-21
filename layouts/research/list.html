@@ -1,0 +1,3 @@
+{{ define "main" }}
+<section class="page container research-page"><p class="eyebrow">CFD · AI · Indoor air quality</p><h1>{{ .Title }}</h1><div class="prose">{{ .Content }}</div><h2>Publications</h2><div class="paper-list">{{ range hugo.Data.papers }}{{ partial "paper.html" (dict "paper" . "level" 3) }}{{ end }}</div></section>
+{{ end }}

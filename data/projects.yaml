@@ -1,0 +1,4 @@
+- name: "CFD and Simulation Toolchain"
+  description: "OpenFOAM, Star-CCM+, ANSYS CFX, Inventor, SolidWorks, MATLAB, and Python for CFD, numerical simulation, and engineering analysis."
+  url: ""
+  language: "CFD / Python"

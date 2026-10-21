@@ -1,0 +1,40 @@
+baseURL: "https://wzh-miasanmia.github.io/zihao.wang-site/"
+title: "Zihao Wang"
+locale: en-US
+
+params:
+  description: "Zihao Wang — PhD candidate at TU Berlin researching computational fluid dynamics, neural operators, and indoor air quality."
+  author: "Zihao Wang"
+  email: "zihao.wang@tu-berlin.de"
+  photo: "images/photo.jpg"
+  tagline: "Understanding indoor air through CFD and AI."
+  affiliation: "Hermann-Rietschel-Institut"
+  program: "PhD Candidate, Chair for Energy, Comfort and Health in Buildings, Technical University of Berlin"
+  advisor: "Martin Kriegel"
+  github: "https://github.com/wzh-miasanmia"
+  linkedin: "https://www.linkedin.com/in/zihaowangmiasanmia/"
+  orcid: "https://orcid.org/0009-0008-6861-4988"
+  cv: "files/cv.pdf"
+
+menu:
+  main:
+    - name: About
+      url: "/#about"
+      weight: 5
+    - name: Research
+      url: "/#research"
+      weight: 10
+    - name: Teaching
+      url: "/#teaching"
+      weight: 20
+    - name: CV
+      url: "/cv/"
+      weight: 30
+    - name: Contact
+      url: "/#contact"
+      weight: 40
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
