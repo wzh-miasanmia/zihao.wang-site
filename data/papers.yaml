@@ -17,6 +17,22 @@
   abstract: "A Fourier neural operator framework for predicting indoor contaminant transport, locating contaminant sources, and estimating release strength."
   featured: true
   tags: ["Neural operators", "Indoor air quality", "Inverse problems"]
+- title: "Operational regime dependence of model performance and feature importance in machine learning-based gas turbine power prediction"
+  authors:
+    - "Eshwar Kumar Ramasetti"
+    - "Alexander Neubauer"
+    - "Zihao Wang"
+    - "Kevin Harry Lausch"
+    - "Jens Altenkirch"
+  year: 2026
+  status: "published"
+  kind: "Journal article"
+  venue: "Applied Thermal Engineering"
+  volume: "304"
+  article_number: "132658"
+  doi: "10.1016/j.applthermaleng.2026.132658"
+  link: "https://doi.org/10.1016/j.applthermaleng.2026.132658"
+  citation: "files/ramasetti-2026-gas-turbine.bib"
 - title: "Ventilation Effectiveness in a Test Room: Experiments and CFD Validation"
   authors:
     - "Yunus Emre Cetin"
@@ -26,8 +42,12 @@
   year: 2026
   status: "published"
   kind: "Conference paper"
-  venue: "IAQVEC 2026"
+  venue: "E3S Web of Conferences (IAQVEC 2026)"
+  volume: "716"
+  article_number: "01055"
+  doi: "10.1051/e3sconf/202671601055"
   link: "https://doi.org/10.1051/e3sconf/202671601055"
+  citation: "files/cetin-2026-ventilation.bib"
   abstract: "Experiments and CFD validation for ventilation effectiveness in a test room."
   job_market_paper: false
   tags:

@@ -12,7 +12,7 @@
 - Avoid: Invented research results, metrics, decorative simulation data, commercial marketing language, slogan headings, numbered section labels, repeated title/description stacks. The user explicitly requested less AI-styled presentation on 2026-10-22.
 
 ## Product goals
-- Goals: Introduce Zihao Wang and his research; foreground the first accepted journal paper; make publications and contact easy to find.
+- Goals: Introduce Zihao Wang and his research; foreground the Fourier neural operator paper; make all confirmed publications and contact easy to find.
 - Non-goals: Publication/deployment without user authorization, CMS migration, visitor accounts.
 - Success signals: Visitors identify research area immediately and reach the paper, citation, CV, or email in one step.
 
