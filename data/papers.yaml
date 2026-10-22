@@ -33,6 +33,19 @@
   doi: "10.1016/j.applthermaleng.2026.132658"
   link: "https://doi.org/10.1016/j.applthermaleng.2026.132658"
   citation: "files/ramasetti-2026-gas-turbine.bib"
+- title: "Bayesian Optimization of Supply Inlet Location for Maximizing Ventilation Effectiveness"
+  authors:
+    - "Yunus Emre Cetin"
+    - "Zihao Wang"
+    - "Martin Kriegel"
+  year: 2026
+  status: "published"
+  kind: "Conference paper"
+  venue: "Indoor Air 2026"
+  link: "https://www.isiaq.org/docs/Indoor_Air_2026_Conference_Proceedings.pdf#page=1485"
+  citation: "files/cetin-2026-bayesian-ventilation.bib"
+  pdf_page: 1485
+  pdf_page_end: 1492
 - title: "Ventilation Effectiveness in a Test Room: Experiments and CFD Validation"
   authors:
     - "Yunus Emre Cetin"
