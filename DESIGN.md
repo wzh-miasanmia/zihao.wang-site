@@ -24,7 +24,7 @@
 ## Information architecture
 - Primary navigation: About, Publications, Teaching, CV, Contact.
 - Core routes/screens: /; /research/; /research/fourier-neural-operator/; /cv/.
-- Content hierarchy: Name and affiliation; acceptance news; biography and research interests; publications; teaching; education; contact.
+- Content hierarchy: Name and affiliation; biography and research interests; publications; teaching; education; contact. No homepage news announcement, per the user's request.
 
 ## Design principles
 - Readable evidence first: DOI-linked publications and factual descriptions carry the page.
@@ -41,7 +41,7 @@
 
 ## Components
 - Existing components to reuse: Hugo base template, head/nav/footer, YAML data, local assets.
-- New/changed components: Name/affiliation profile, one-line news, shared paper partial, publication detail, mobile nav button. No decorative eyebrows, topic cards, or one-sentence summary disclosures.
+- New/changed components: Name/affiliation profile, shared paper partial, publication detail, mobile nav button. No decorative eyebrows, news banner, topic cards, or one-sentence summary disclosures.
 - Variants and states: Featured journal article; compact conference article; accepted/published status.
 - Token/component ownership: CSS variables in assets/css/style.css; shared publication rendering in layouts/partials/paper.html.
 

@@ -4,7 +4,7 @@ Most edits can be made directly in GitHub. Open the file, click the pencil icon,
 
 ## Add a New Paper
 
-The homepage and `/research/` share `layouts/partials/paper.html`. Put each paper in `data/papers.yaml` once. Use `status: "accepted"` for accepted articles and `status: "published"` for published work; accepted papers appear alongside publications. Set `featured: true` on the latest journal article to show the homepage acceptance announcement. Remove or revise the announcement in `layouts/index.html` when that wording no longer applies.
+The homepage and `/research/` share `layouts/partials/paper.html`. Put each paper in `data/papers.yaml` once. Use `status: "accepted"` for accepted articles and `status: "published"` for published work; accepted papers appear alongside publications. Set `featured: true` to visually highlight a paper in the list. This does not create a news announcement.
 
 Optional fields: `kind`, `doi`, `article_number`, `detail` (an internal detail page), and `citation` (a BibTeX download). Keep internal paths relative to the site root, without a leading slash, so they work on GitHub Pages project URLs. The new article's detail page is `content/research/fourier-neural-operator/index.md`, matched to its YAML record by `paper_doi`.
 
@@ -100,4 +100,4 @@ Replace `static/images/photo.jpg` with a new square or portrait image and keep t
 
 ## Add a News Item
 
-The homepage currently announces acceptance of the paper marked `featured: true`. Update the announcement in `layouts/index.html` for a different milestone. If news becomes a regular part of the site, introduce `data/news.yaml`.
+The homepage news announcement was removed at the user's request. Do not restore it without a new request.

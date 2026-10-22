@@ -42,9 +42,6 @@ p { margin: 0 0 1rem; }
 .text-link { display: inline-block; font-size: .82rem; font-weight: 500; text-decoration: none; }
 .hero-photo { margin: 0; }
 .hero-photo img { width: 260px; height: 300px; object-fit: cover; border-radius: 3px; filter: saturate(.8); }
-.news { padding: 22px 0; border-block: 1px solid var(--color-border); }
-.news p { margin: 0; font-size: .86rem; }
-.news em { font-style: normal; font-weight: 600; }
 .section { display: grid; grid-template-columns: 235px minmax(0,1fr); gap: 48px; padding-block: 64px; border-bottom: 1px solid var(--color-border); scroll-margin-top: 105px; }
 .section-body { min-width: 0; }
 .section h2 { margin: 0; }

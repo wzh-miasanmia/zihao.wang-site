@@ -8,9 +8,6 @@
   </div>
   <figure class="hero-photo"><img src="{{ site.Params.photo | relURL }}" alt="Portrait of Zihao Wang" width="643" height="643" fetchpriority="high"></figure>
 </section>
-{{ range where hugo.Data.papers "featured" true }}
-<aside class="news container" aria-label="Research news"><p>My paper on Fourier neural operators has been accepted in <em>{{ .venue }}</em>. <a href="{{ .detail | relURL }}">Read the paper</a>.</p></aside>
-{{ end }}
 <section class="section container" id="about" aria-labelledby="about-title"><div class="section-label"><h2 id="about-title">About</h2></div><div class="section-body prose">{{ .Content }}</div></section>
 <section class="section container" id="research" aria-labelledby="research-title">
   <div class="section-label"><h2 id="research-title">Publications</h2></div>
