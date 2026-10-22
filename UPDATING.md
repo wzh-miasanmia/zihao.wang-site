@@ -54,9 +54,9 @@ Only one paper should normally use this setting.
 
 ## Update the Bio
 
-Edit `content/_index.md`. The paragraphs in that file appear in the About me section of the homepage. Research themes live in `data/research.yaml`. Design decisions are recorded in `DESIGN.md`.
+Edit `content/_index.md`. The paragraphs in that file appear in the About section of the homepage and include research interests. Design decisions are recorded in `DESIGN.md`; keep headings direct and omit decorative section labels.
 
-Short profile details such as the tagline, email address, advisor, and social links live in `hugo.yaml`.
+Short profile details such as the email address, affiliation, advisor, and social links live in `hugo.yaml`.
 
 ## Add a Teaching Entry
 

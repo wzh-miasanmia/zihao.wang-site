@@ -1,41 +1,38 @@
 {{ define "main" }}
 <section class="hero container" aria-labelledby="profile-name">
   <div class="hero-copy">
-    <p class="eyebrow">PhD candidate <span aria-hidden="true">/</span> TU Berlin</p>
     <h1 id="profile-name">{{ site.Params.author }}</h1>
-    <p class="tagline">{{ site.Params.tagline }}</p>
+    <p class="profile-role">PhD candidate, Technical University of Berlin</p>
     <p class="hero-affiliation">Chair for Energy, Comfort and Health in Buildings<br>{{ site.Params.affiliation }}</p>
-    <div class="hero-actions" aria-label="Profile links"><a class="button" href="#research">Explore my research ↗</a><a class="text-link" href="{{ "cv/" | relURL }}">Curriculum vitae ↗</a></div>
+    <div class="hero-actions" aria-label="Profile links"><a class="text-link" href="{{ "cv/" | relURL }}">CV</a><a class="text-link" href="mailto:{{ site.Params.email }}">Email</a></div>
   </div>
-  <figure class="hero-photo"><img src="{{ site.Params.photo | relURL }}" alt="Portrait of Zihao Wang" width="643" height="643" fetchpriority="high"><figcaption>Zihao Wang <span>Berlin, Germany</span></figcaption></figure>
+  <figure class="hero-photo"><img src="{{ site.Params.photo | relURL }}" alt="Portrait of Zihao Wang" width="643" height="643" fetchpriority="high"></figure>
 </section>
 {{ range where hugo.Data.papers "featured" true }}
-<aside class="news container" aria-label="Research news"><span class="eyebrow">Latest news</span><p>My first journal article has been accepted in <em>{{ .venue }}</em>.</p><a class="text-link" href="{{ .detail | relURL }}">Read the paper ↗</a></aside>
+<aside class="news container" aria-label="Research news"><p>My first journal article has been accepted in <em>{{ .venue }}</em>. <a href="{{ .detail | relURL }}">Read the paper</a>.</p></aside>
 {{ end }}
-<section class="section container" id="about" aria-labelledby="about-title"><div class="section-label"><span class="eyebrow">01 / Background</span><h2 id="about-title">About me</h2></div><div class="section-body prose">{{ .Content }}</div></section>
+<section class="section container" id="about" aria-labelledby="about-title"><div class="section-label"><h2 id="about-title">About</h2></div><div class="section-body prose">{{ .Content }}</div></section>
 <section class="section container" id="research" aria-labelledby="research-title">
-  <div class="section-label"><span class="eyebrow">02 / Research</span><h2 id="research-title">Airflow, learning,<br>and the indoors.</h2></div>
+  <div class="section-label"><h2 id="research-title">Publications</h2></div>
   <div class="section-body">
-    <div class="research-topics">{{ range hugo.Data.research }}<article class="research-topic"><p class="eyebrow">{{ .label }}</p><h3>{{ .title }}</h3><p>{{ .text }}</p></article>{{ end }}</div>
-    <div class="section-subhead"><h3>Publications</h3><span class="meta">Journal & conference papers</span></div>
-    <div class="paper-list">{{ range hugo.Data.papers }}{{ partial "paper.html" (dict "paper" . "level" 4) }}{{ end }}</div>
+    <div class="paper-list">{{ range hugo.Data.papers }}{{ partial "paper.html" (dict "paper" . "level" 3) }}{{ end }}</div>
   </div>
 </section>
 {{ with hugo.Data.teaching }}
-<section class="section container" id="teaching" aria-labelledby="teaching-title"><div class="section-label"><span class="eyebrow">03 / Teaching</span><h2 id="teaching-title">Sharing<br>what I learn.</h2></div><div class="section-body item-list">{{ range . }}<article class="list-item"><p class="eyebrow">{{ .term }}</p><h3>{{ .course }}</h3><p class="meta">{{ .role }} · {{ .institution }}</p></article>{{ end }}</div></section>
+<section class="section container" id="teaching" aria-labelledby="teaching-title"><div class="section-label"><h2 id="teaching-title">Teaching</h2></div><div class="section-body item-list">{{ range . }}<article class="list-item"><p class="meta">{{ .term }}</p><h3>{{ .course }}</h3><p class="meta">{{ .role }} · {{ .institution }}</p></article>{{ end }}</div></section>
 {{ end }}
 <section class="section container" id="education" aria-labelledby="education-title">
-  <div class="section-label"><span class="eyebrow">04 / Education</span><h2 id="education-title">Along the way.</h2></div>
+  <div class="section-label"><h2 id="education-title">Education</h2></div>
   <div class="section-body item-list">
-    <article class="education-item"><p class="eyebrow">2021–2025</p><div><h3>Technical University of Munich</h3><p>Master's · Medical Engineering and Assistance Systems</p></div></article>
-    <article class="education-item"><p class="eyebrow">2021–2024</p><div><h3>Technical University of Munich</h3><p>Master's · Mechatronics and Robotics</p></div></article>
-    <article class="education-item"><p class="eyebrow">2017–2021</p><div><h3>Beijing Institute of Technology</h3><p>Bachelor's · Energy and Power Engineering</p></div></article>
+    <article class="education-item"><p class="meta">2021–2025</p><div><h3>Technical University of Munich</h3><p>Master's · Medical Engineering and Assistance Systems</p></div></article>
+    <article class="education-item"><p class="meta">2021–2024</p><div><h3>Technical University of Munich</h3><p>Master's · Mechatronics and Robotics</p></div></article>
+    <article class="education-item"><p class="meta">2017–2021</p><div><h3>Beijing Institute of Technology</h3><p>Bachelor's · Energy and Power Engineering</p></div></article>
   </div>
 </section>
 <section class="section container contact" id="contact" aria-labelledby="contact-title">
-  <div class="section-label"><span class="eyebrow">05 / Contact</span><h2 id="contact-title">Get in touch.</h2></div>
-  <div class="section-body"><p class="contact-intro">Interested in CFD, neural operators, or indoor air quality? I'd be happy to hear from you.</p><a class="contact-email" href="mailto:{{ site.Params.email }}">{{ site.Params.email }} ↗</a>
-    <div class="social-links" aria-label="Academic and social profiles"><a href="{{ site.Params.orcid }}">ORCID ↗</a><a href="{{ site.Params.github }}">GitHub ↗</a><a href="{{ site.Params.linkedin }}">LinkedIn ↗</a></div><p class="personal-note">Beyond research: football & FC Bayern.</p>
+  <div class="section-label"><h2 id="contact-title">Contact</h2></div>
+  <div class="section-body"><a class="contact-email" href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
+    <div class="social-links" aria-label="Academic and social profiles"><a href="{{ site.Params.orcid }}">ORCID</a><a href="{{ site.Params.github }}">GitHub</a><a href="{{ site.Params.linkedin }}">LinkedIn</a></div><p class="personal-note">Outside work, I enjoy football and support FC Bayern.</p>
   </div>
 </section>
 {{ end }}

@@ -2,10 +2,10 @@
 {{ $page := . }}
 {{ range where hugo.Data.papers "doi" .Params.paper_doi }}
 <article class="page container publication-page">
-<a class="text-link" href="{{ site.Home.RelPermalink }}#research">← All research</a>
-<header class="publication-header"><p class="eyebrow">{{ .venue }} / {{ .year }} <span class="badge">{{ .status }}</span></p><h1>{{ .title }}</h1><p class="authors">{{ range $i, $author := .authors }}{{ if $i }}, {{ end }}{{ if eq $author site.Params.author }}<strong>{{ $author }}</strong>{{ else }}{{ $author }}{{ end }}{{ end }}</p><p class="meta">{{ .venue }} · Article {{ .article_number }} · {{ .year }}</p></header>
-<div class="hero-actions"><a class="button" href="{{ .link }}">Read on publisher's site ↗</a><a class="text-link" href="{{ .citation | relURL }}" download>Download BibTeX ↓</a></div>
-<div class="prose publication-copy"><h2>Research overview</h2>{{ $page.Content }}<p class="doi">DOI: <a href="{{ .link }}">{{ .doi }}</a></p></div>
+<a class="text-link" href="{{ site.Home.RelPermalink }}#research">Back to publications</a>
+<header class="publication-header"><p class="meta">{{ .venue }} · {{ .year }} <span class="badge">{{ .status }}</span></p><h1>{{ .title }}</h1><p class="authors">{{ range $i, $author := .authors }}{{ if $i }}, {{ end }}{{ if eq $author site.Params.author }}<strong>{{ $author }}</strong>{{ else }}{{ $author }}{{ end }}{{ end }}</p><p class="meta">Article {{ .article_number }}</p></header>
+<div class="hero-actions"><a class="button" href="{{ .link }}">Read article</a><a class="text-link" href="{{ .citation | relURL }}" download>Download BibTeX</a></div>
+<div class="prose publication-copy">{{ $page.Content }}<p class="doi">DOI: <a href="{{ .link }}">{{ .doi }}</a></p></div>
 </article>
 {{ end }}
 {{ end }}

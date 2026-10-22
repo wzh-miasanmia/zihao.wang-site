@@ -2,14 +2,14 @@
 
 ## Source of truth
 - Status: Active
-- Last refreshed: 2026-10-21
+- Last refreshed: 2026-10-22
 - Primary product surfaces: English academic homepage, publication detail, CV.
 - Evidence reviewed: hugo.yaml; content/_index.md; data/*.yaml; layouts/; assets/css/style.css; existing portrait and CV; Crossref record for 10.1016/j.buildenv.2026.115451; user's acceptance announcement.
 
 ## Brand
 - Personality: Thoughtful, precise, approachable academic researcher.
 - Trust signals: Real portrait, TU Berlin affiliation, named coauthors, DOI, downloadable citation.
-- Avoid: Invented research results, metrics, decorative simulation data, commercial marketing language.
+- Avoid: Invented research results, metrics, decorative simulation data, commercial marketing language, slogan headings, numbered section labels, repeated title/description stacks. The user explicitly requested less AI-styled presentation on 2026-10-22.
 
 ## Product goals
 - Goals: Introduce Zihao Wang and his research; foreground the first accepted journal paper; make publications and contact easy to find.
@@ -22,13 +22,13 @@
 - Key contexts of use: Desktop scholarly browsing and mobile link sharing.
 
 ## Information architecture
-- Primary navigation: About, Research, Teaching, CV, Contact.
+- Primary navigation: About, Publications, Teaching, CV, Contact.
 - Core routes/screens: /; /research/; /research/fourier-neural-operator/; /cv/.
-- Content hierarchy: Profile and acceptance news; biography; research themes and publications; teaching; education; contact.
+- Content hierarchy: Name and affiliation; acceptance news; biography and research interests; publications; teaching; education; contact.
 
 ## Design principles
 - Readable evidence first: DOI-linked publications and factual descriptions carry the page.
-- Quiet editorial layout: Serif headings, generous whitespace, small labels, ruled lists.
+- Direct academic layout: Serif headings, restrained whitespace, factual metadata, ruled lists. Each section has one useful heading: About, Publications, Teaching, Education, Contact.
 - Tradeoffs: Keep Hugo and YAML updates simple; no external fonts or framework dependencies.
 
 ## Visual language
@@ -41,7 +41,7 @@
 
 ## Components
 - Existing components to reuse: Hugo base template, head/nav/footer, YAML data, local assets.
-- New/changed components: Editorial hero, news strip, research topics, shared paper partial, publication detail, native abstract disclosure, mobile nav button.
+- New/changed components: Name/affiliation profile, one-line news, shared paper partial, publication detail, mobile nav button. No decorative eyebrows, topic cards, or one-sentence summary disclosures.
 - Variants and states: Featured journal article; compact conference article; accepted/published status.
 - Token/component ownership: CSS variables in assets/css/style.css; shared publication rendering in layouts/partials/paper.html.
 
@@ -68,7 +68,7 @@
 ## Content voice
 - Tone: First-person, factual, concise English.
 - Terminology: Accepted status follows the user's statement; full title and authors follow Crossref.
-- Microcopy rules: Explain research scope without adding performance or validation claims.
+- Microcopy rules: Explain research scope without adding performance or validation claims. Use descriptive section names; avoid promotional invitations and repeated self-descriptions. Show journal, year, status, course terms, and education dates as ordinary readable metadata.
 
 ## Implementation constraints
 - Framework/styling system: Existing Hugo static site with plain CSS and a small navigation script.
@@ -78,6 +78,6 @@
 - Test/screenshot expectations: Production build, local link and asset checks, desktop/mobile browser QA when available.
 
 ## Open questions
-- [ ] Confirm preferred public deployment URL and authorize deployment separately.
+- [x] Public GitHub Pages deployment authorized on 2026-10-21: https://wzh-miasanmia.github.io/zihao.wang-site/.
 - [ ] Existing downloadable PDF CV predates the new article; update when the user supplies or requests a revised CV.
 - [ ] Confirm whether a Chinese version is desired; English follows the existing repository.
