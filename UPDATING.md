@@ -60,6 +60,8 @@ Short profile details such as the email address, affiliation, advisor, and socia
 
 ## Add a Teaching Entry
 
+Experience entries are stored in `data/experience.yaml` (role, institution, period, description). Education entries are stored in `data/education.yaml` (institution, degree, period, logo). Keep descriptions short and update dates from a confirmed source.
+
 Edit `data/teaching.yaml`:
 
 ```yaml

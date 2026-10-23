@@ -26,6 +26,9 @@ menu:
     - name: Teaching
       url: "/#teaching"
       weight: 20
+    - name: Experience
+      url: "/#experience"
+      weight: 15
     - name: CV
       url: "/cv/"
       weight: 30

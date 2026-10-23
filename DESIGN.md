@@ -22,13 +22,13 @@
 - Key contexts of use: Desktop scholarly browsing and mobile link sharing.
 
 ## Information architecture
-- Primary navigation: About, Publications, Teaching, CV, Contact.
+- Primary navigation: About, Publications, Experience, Teaching, CV, Contact.
 - Core routes/screens: /; /research/; /research/fourier-neural-operator/; /cv/.
-- Content hierarchy: Name and affiliation; biography and research interests; publications; teaching; education; contact. No homepage news announcement, per the user's request.
+- Content hierarchy: Name and affiliation; biography and research interests; publications; experience; teaching; education; contact. No homepage news announcement, per the user's request.
 
 ## Design principles
 - Readable evidence first: DOI-linked publications and factual descriptions carry the page.
-- Direct academic layout: Serif headings, restrained whitespace, factual metadata, ruled lists. Each section has one useful heading: About, Publications, Teaching, Education, Contact.
+- Direct academic layout: Serif headings, restrained whitespace, factual metadata, ruled lists. Each section has one useful heading: About, Publications, Experience, Teaching, Education, Contact.
 - Tradeoffs: Keep Hugo and YAML updates simple; no external fonts or framework dependencies.
 
 ## Visual language
@@ -69,6 +69,7 @@
 - Tone: First-person, factual, concise English.
 - Terminology: Accepted status follows the user's statement; full title and authors follow Crossref.
 - Affiliation: The Chair for Energy, Comfort and Health in Buildings and Hermann-Rietschel-Institut (HRI) are two names for the same unit, as clarified by the user. Present HRI in parentheses, not as a second affiliation.
+- Background: Roles, thesis descriptions, and education dates were read from the author's LinkedIn profile on 2026-10-23. The ongoing PhD uses “present” rather than the profile's prospective completion date. Omit grades and private profile analytics.
 - Microcopy rules: Explain research scope without adding performance or validation claims. Use descriptive section names; avoid promotional invitations and repeated self-descriptions. Show journal, year, status, course terms, and education dates as ordinary readable metadata.
 
 ## Implementation constraints

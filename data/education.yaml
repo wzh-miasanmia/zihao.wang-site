@@ -1,0 +1,19 @@
+- institution: "Technical University of Berlin"
+  degree: "PhD · Computational Fluid Dynamics and Artificial Intelligence"
+  period: "Sep 2025–present"
+  logo: "images/tu-berlin-logo.svg"
+
+- institution: "Technical University of Munich"
+  degree: "Master's · Medical Engineering and Assistance Systems"
+  period: "Sep 2021–Jul 2025"
+  logo: "images/tum-logo.svg"
+
+- institution: "Technical University of Munich"
+  degree: "Master's · Mechatronics and Robotics"
+  period: "Sep 2021–Jun 2024"
+  logo: "images/tum-logo.svg"
+
+- institution: "Beijing Institute of Technology"
+  degree: "Bachelor's · Energy and Power Engineering"
+  period: "Sep 2017–Jun 2021"
+  logo: "images/bit-logo.svg"

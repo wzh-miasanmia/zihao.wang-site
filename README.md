@@ -14,9 +14,13 @@ The site is a minimal, content-driven static site designed for GitHub Pages. Mos
 
 ## Logo Sources
 
+Experience and education were checked against the author's LinkedIn profile on 2026-10-23: https://www.linkedin.com/in/zihaowangmiasanmia/. The homepage lists all four roles and all four education entries. Descriptions are shortened from the profile; the ongoing PhD is shown as “present” rather than a prospective end date. No private profile analytics are used.
+
 Education logos use official university assets, checked on 2026-10-23. TUM's SVG geometry comes from https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Backend/tum-logo.svg and uses the university website's brand blue (#3070B3). BIT's crest comes from https://www.bit.edu.cn/images/gb20190805/logo_01.svg. Both are stored locally in `static/images/`, preserve their proportions, and accompany the written university names.
 
 The profile header uses HRI's official combined TU Berlin/HRI mark from https://hermann-rietschel-institut.de/wp-content/uploads/2025/02/cropped-TU-HRI-bp.png, checked on 2026-10-23. The image is unmodified; CSS multiply blending lets its white background match the page background.
+
+The PhD education entry uses TU Berlin's official red logo from https://www.static.tu.berlin/_assets/2ff76cde2126808ef662c87f1945ad8e/Images/Logos/tu-berlin-logo-long-red.svg, stored unchanged as `static/images/tu-berlin-logo.svg`.
 
 ## Local Preview
 
