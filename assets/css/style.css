@@ -65,8 +65,8 @@ p { margin: 0 0 1rem; }
 .list-item:last-child { border-bottom: 0; padding-bottom: 0; }
 .list-item h3 { margin: 8px 0; font-size: .95rem; }
 .list-item p:last-child { margin: 0; }
-.education-item { display: grid; grid-template-columns: 92px 1fr; gap: 20px; }
-.education-item > .meta { padding-top: 3px; margin: 0; }
+.education-item { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 20px; align-items: start; }
+.education-logo { width: 56px; height: 56px; object-fit: contain; }
 .education-item h3 { font-size: .94rem; }
 .education-item div p { color: var(--color-muted); font-size: .8rem; margin: 5px 0 0; }
 .contact { border-bottom: 0; padding-bottom: 80px; }
@@ -114,7 +114,8 @@ p { margin: 0 0 1rem; }
   .prose { font-size: .9rem; }
   .paper-featured { padding: 20px; }
   .paper-heading { align-items: flex-start; gap: 8px; }
-  .education-item { grid-template-columns: 82px 1fr; gap: 12px; }
+  .education-item { grid-template-columns: 44px minmax(0, 1fr); gap: 16px; }
+  .education-logo { width: 44px; height: 44px; }
   .contact { padding-bottom: 50px; }
   .site-footer { flex-wrap: wrap; gap: 10px 20px; font-size: .65rem; }
   .page { padding-block: 40px 60px; }

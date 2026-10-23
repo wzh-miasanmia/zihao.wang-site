@@ -12,6 +12,10 @@ The Indoor Air 2026 paper, "Bayesian Optimization of Supply Inlet Location for M
 
 The site is a minimal, content-driven static site designed for GitHub Pages. Most updates can be made by editing Markdown or YAML files directly on GitHub.
 
+## Logo Sources
+
+Education logos use official university assets, checked on 2026-10-23. TUM's SVG geometry comes from https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Backend/tum-logo.svg and uses the university website's brand blue (#3070B3). BIT's crest comes from https://www.bit.edu.cn/images/gb20190805/logo_01.svg. Both are stored locally in `static/images/`, preserve their proportions, and accompany the written university names.
+
 ## Local Preview
 
 Install Hugo extended, then run:

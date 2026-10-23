@@ -3,7 +3,7 @@
   <div class="hero-copy">
     <h1 id="profile-name">{{ site.Params.author }}</h1>
     <p class="profile-role">PhD candidate, Technical University of Berlin</p>
-    <p class="hero-affiliation">Chair for Energy, Comfort and Health in Buildings<br>{{ site.Params.affiliation }}</p>
+    <p class="hero-affiliation">Chair for Energy, Comfort and Health in Buildings ({{ site.Params.affiliation }})</p>
     <div class="hero-actions" aria-label="Profile links"><a class="text-link" href="{{ "cv/" | relURL }}">CV</a><a class="text-link" href="mailto:{{ site.Params.email }}">Email</a></div>
   </div>
   <figure class="hero-photo"><img src="{{ site.Params.photo | relURL }}" alt="Portrait of Zihao Wang" width="643" height="643" fetchpriority="high"></figure>
@@ -21,9 +21,9 @@
 <section class="section container" id="education" aria-labelledby="education-title">
   <div class="section-label"><h2 id="education-title">Education</h2></div>
   <div class="section-body item-list">
-    <article class="education-item"><p class="meta">2021–2025</p><div><h3>Technical University of Munich</h3><p>Master's · Medical Engineering and Assistance Systems</p></div></article>
-    <article class="education-item"><p class="meta">2021–2024</p><div><h3>Technical University of Munich</h3><p>Master's · Mechatronics and Robotics</p></div></article>
-    <article class="education-item"><p class="meta">2017–2021</p><div><h3>Beijing Institute of Technology</h3><p>Bachelor's · Energy and Power Engineering</p></div></article>
+    <article class="education-item"><img class="education-logo" src="{{ "images/tum-logo.svg" | relURL }}" alt="" width="56" height="56" loading="lazy"><div><h3>Technical University of Munich</h3><p>Master's · Medical Engineering and Assistance Systems</p><p class="meta">2021–2025</p></div></article>
+    <article class="education-item"><img class="education-logo" src="{{ "images/tum-logo.svg" | relURL }}" alt="" width="56" height="56" loading="lazy"><div><h3>Technical University of Munich</h3><p>Master's · Mechatronics and Robotics</p><p class="meta">2021–2024</p></div></article>
+    <article class="education-item"><img class="education-logo" src="{{ "images/bit-logo.svg" | relURL }}" alt="" width="56" height="56" loading="lazy"><div><h3>Beijing Institute of Technology</h3><p>Bachelor's · Energy and Power Engineering</p><p class="meta">2017–2021</p></div></article>
   </div>
 </section>
 <section class="section container contact" id="contact" aria-labelledby="contact-title">

@@ -2,7 +2,7 @@
 
 ## Source of truth
 - Status: Active
-- Last refreshed: 2026-10-22
+- Last refreshed: 2026-10-23
 - Primary product surfaces: English academic homepage, publication detail, CV.
 - Evidence reviewed: hugo.yaml; content/_index.md; data/*.yaml; layouts/; assets/css/style.css; existing portrait and CV; Crossref record for 10.1016/j.buildenv.2026.115451; user's acceptance announcement.
 
@@ -37,7 +37,7 @@
 - Spacing/layout rhythm: 1080px overall width; 200px section-label column; 24px mobile gutters.
 - Shape/radius/elevation: Slightly rounded portrait; flat surfaces; thin borders; no shadows.
 - Motion: Native anchor scrolling, disabled for reduced motion.
-- Imagery/iconography: Existing portrait; text arrows where useful; no invented scientific figures.
+- Imagery/iconography: Existing portrait and small official university logos beside education entries. Preserve logo proportions and university colors; no decorative frames or shadows. No invented scientific figures.
 
 ## Components
 - Existing components to reuse: Hugo base template, head/nav/footer, YAML data, local assets.
@@ -68,6 +68,7 @@
 ## Content voice
 - Tone: First-person, factual, concise English.
 - Terminology: Accepted status follows the user's statement; full title and authors follow Crossref.
+- Affiliation: The Chair for Energy, Comfort and Health in Buildings and Hermann-Rietschel-Institut (HRI) are two names for the same unit, as clarified by the user. Present HRI in parentheses, not as a second affiliation.
 - Microcopy rules: Explain research scope without adding performance or validation claims. Use descriptive section names; avoid promotional invitations and repeated self-descriptions. Show journal, year, status, course terms, and education dates as ordinary readable metadata.
 
 ## Implementation constraints
