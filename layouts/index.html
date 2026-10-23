@@ -4,6 +4,7 @@
     <h1 id="profile-name">{{ site.Params.author }}</h1>
     <p class="profile-role">PhD candidate, Technical University of Berlin</p>
     <p class="hero-affiliation">Chair for Energy, Comfort and Health in Buildings ({{ site.Params.affiliation }})</p>
+    <a class="affiliation-logo" href="https://www.tu.berlin/en/hri"><img src="{{ "images/tu-berlin-hri-logo.png" | relURL }}" alt="TU Berlin and Hermann-Rietschel-Institut (HRI)" width="252" height="59"></a>
     <div class="hero-actions" aria-label="Profile links"><a class="text-link" href="{{ "cv/" | relURL }}">CV</a><a class="text-link" href="mailto:{{ site.Params.email }}">Email</a></div>
   </div>
   <figure class="hero-photo"><img src="{{ site.Params.photo | relURL }}" alt="Portrait of Zihao Wang" width="643" height="643" fetchpriority="high"></figure>

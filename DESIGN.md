@@ -37,7 +37,7 @@
 - Spacing/layout rhythm: 1080px overall width; 200px section-label column; 24px mobile gutters.
 - Shape/radius/elevation: Slightly rounded portrait; flat surfaces; thin borders; no shadows.
 - Motion: Native anchor scrolling, disabled for reduced motion.
-- Imagery/iconography: Existing portrait and small official university logos beside education entries. Preserve logo proportions and university colors; no decorative frames or shadows. No invented scientific figures.
+- Imagery/iconography: Existing portrait, the official combined TU Berlin/HRI mark under the profile affiliation, and small official university logos beside education entries. Preserve logo proportions and university colors; no decorative frames or shadows. No invented scientific figures.
 
 ## Components
 - Existing components to reuse: Hugo base template, head/nav/footer, YAML data, local assets.

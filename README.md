@@ -16,6 +16,8 @@ The site is a minimal, content-driven static site designed for GitHub Pages. Mos
 
 Education logos use official university assets, checked on 2026-10-23. TUM's SVG geometry comes from https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Backend/tum-logo.svg and uses the university website's brand blue (#3070B3). BIT's crest comes from https://www.bit.edu.cn/images/gb20190805/logo_01.svg. Both are stored locally in `static/images/`, preserve their proportions, and accompany the written university names.
 
+The profile header uses HRI's official combined TU Berlin/HRI mark from https://hermann-rietschel-institut.de/wp-content/uploads/2025/02/cropped-TU-HRI-bp.png, checked on 2026-10-23. The image is unmodified; CSS multiply blending lets its white background match the page background.
+
 ## Local Preview
 
 Install Hugo extended, then run:
