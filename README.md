@@ -2,7 +2,7 @@
 
 This repository contains the Hugo source for Zihao Wang's academic website.
 
-The current draft features the 2026 Building and Environment article, a publication detail page, and a downloadable BibTeX citation. Its metadata was checked against Crossref on 2026-10-21: https://api.crossref.org/works/10.1016/j.buildenv.2026.115451. The accepted status follows the author's confirmation. Research descriptions state the scope only; they do not assert performance results.
+The site features the published Building and Environment article, a publication detail page, and a downloadable BibTeX citation. Publication metadata was rechecked on 2026-11-09 against Crossref (https://api.crossref.org/works/10.1016/j.buildenv.2026.115451) and ScienceDirect (https://www.sciencedirect.com/science/article/pii/S0360132326012515). The final record is volume 307, Part A, article 115451, January 2027; the site and BibTeX use the issue year 2027, while the DOI and existing citation URL retain 2026. The second author's full name is Kevin Harry Lausch. Research descriptions state the scope only; they do not assert performance results.
 
 See `DESIGN.md` for visual and content decisions and `UPDATING.md` for maintenance. The existing PDF CV predates this article and still needs a separate update. Local preview does not publish the site; pushing to `main` triggers the existing GitHub Pages workflow.
 

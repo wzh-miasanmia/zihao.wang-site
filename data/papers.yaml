@@ -1,14 +1,16 @@
 - title: "A Fourier neural operator framework for indoor contaminant transport prediction, source localization, and release strength estimation"
   authors:
     - "Zihao Wang"
-    - "Kevin H. Lausch"
+    - "Kevin Harry Lausch"
     - "Eugen Lichtner"
     - "Eshwar Kumar Ramasetti"
     - "Martin Kriegel"
-  year: 2026
-  status: "accepted"
+  year: 2027
+  status: "published"
   kind: "Journal article"
   venue: "Building and Environment"
+  volume: "307"
+  issue: "Part A"
   article_number: "115451"
   doi: "10.1016/j.buildenv.2026.115451"
   link: "https://doi.org/10.1016/j.buildenv.2026.115451"

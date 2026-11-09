@@ -67,7 +67,7 @@
 
 ## Content voice
 - Tone: First-person, factual, concise English.
-- Terminology: Accepted status follows the user's statement; full title and authors follow Crossref.
+- Terminology: Publication status and bibliographic metadata follow the publisher and Crossref. The Fourier neural operator article is published in volume 307, Part A (January 2027), verified on 2026-11-09; its citation uses 2027 while its DOI retains 2026.
 - Affiliation: The Chair for Energy, Comfort and Health in Buildings and Hermann-Rietschel-Institut (HRI) are two names for the same unit, as clarified by the user. Present HRI in parentheses, not as a second affiliation.
 - Background: Roles, thesis descriptions, and education dates were read from the author's LinkedIn profile on 2026-10-23. The ongoing PhD uses “present” rather than the profile's prospective completion date. Omit grades and private profile analytics.
 - Microcopy rules: Explain research scope without adding performance or validation claims. Use descriptive section names; avoid promotional invitations and repeated self-descriptions. Show journal, year, status, course terms, and education dates as ordinary readable metadata.

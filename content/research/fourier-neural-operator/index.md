@@ -1,6 +1,6 @@
 ---
 title: "A Fourier neural operator framework for indoor contaminant transport prediction, source localization, and release strength estimation"
-description: "A journal article by Zihao Wang and colleagues in Building and Environment (2026)."
+description: "A published journal article by Zihao Wang and colleagues in Building and Environment, volume 307, Part A (2027), article 115451."
 layout: publication
 paper_doi: "10.1016/j.buildenv.2026.115451"
 ---
